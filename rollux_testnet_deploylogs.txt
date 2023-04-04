@@ -1,0 +1,17 @@
+yarn hardhat  --network rollux_testnet deploy
+yarn run v1.22.19
+$ /Users/tedianosias/syscoin/gnosis/safe/safe-contracts/node_modules/.bin/hardhat --network rollux_testnet deploy
+Nothing to compile
+sending eth to create2 contract deployer address (0xE1CB04A0fA36DdD16a06ea828007E35e1a3cBC37) (tx: 0x4d91053824ce91b7329a7f76758b246c128e6f9319510125169b2ce4134c8dbc)...
+deploying create2 deployer contract (at 0x914d7Fec6aaC8cd542e72Bca78B30650d45643d7) using deterministic deployment (https://github.com/Arachnid/deterministic-deployment-proxy) (tx: 0xf19b506fb2f31443d9b0e39084401d6fc5326a4599ac3bf0e6bf4b391b5187c9)...
+deploying "SimulateTxAccessor" (tx: 0x4ccce425b81377fa734fd486de07eae35010d4f34cfe2d4ed887d0f3f9133ee7)...: deployed at 0x727a77a074D1E6c4530e814F89E618a3298FC044 with 237871 gas
+deploying "GnosisSafeProxyFactory" (tx: 0x9ee6156c53059aa524ec091b6fd2bcc154dd6ac2d511cef4891ce29fc5cd483d)...: deployed at 0xC22834581EbC8527d974F8a1c97E1bEA4EF910BC with 867594 gas
+deploying "DefaultCallbackHandler" (tx: 0xafc2ac3a9b550fb9261c4d225b6223d10131621976f9bb8b615bf01e696bc914)...: deployed at 0x3d8E605B02032A941Cfe26897Ca94d77a5BC24b3 with 542473 gas
+deploying "CompatibilityFallbackHandler" (tx: 0xd036c19357fa2a0daae2b0108f1dba2f31ed25a051f05c2c11067531dface6f4)...: deployed at 0x017062a1dE2FE6b99BE3d9d37841FeD19F573804 with 1238095 gas
+deploying "CreateCall" (tx: 0x43f811d04e192e426bf7f07c9b025daf6d0e3132a029ea4eff175a3bf698040b)...: deployed at 0xB19D6FFc2182150F8Eb585b79D4ABcd7C5640A9d with 294718 gas
+deploying "MultiSend" (tx: 0x3eb572b284464369e12f43965bee65749bd7be4e53a06ce248b750cce725e79c)...: deployed at 0x998739BFdAAdde7C933B942a68053933098f9EDa with 190004 gas
+deploying "MultiSendCallOnly" (tx: 0x2648f096428e7a25ee4c678cfa2edbdb9cb6c4b8c640422f75449509ac194e57)...: deployed at 0xA1dabEF33b3B82c7814B6D82A79e50F4AC44102B with 142122 gas
+deploying "SignMessageLib" (tx: 0xbc6272e93b826ad83ef39470114f5e355d000814887dd0fd4d43e3305cc1b308)...: deployed at 0x98FFBBF51bb33A056B08ddf711f289936AafF717 with 262353 gas
+deploying "GnosisSafeL2" (tx: 0xc3fc9f70d5ccef1393cc16a55af3c37bd591d8ec8bc92393813683915225ea1d)...: deployed at 0xfb1bffC9d739B8D520DaF37dF666da4C687191EA with 5200241 gas
+deploying "GnosisSafe" (tx: 0xf5bb7127d3ef7ec8109c8d624b0eeeb41072cba2e9f696fa9fc038f62312a831)...: deployed at 0x69f4D1788e39c87893C980c06EdF4b7f686e2938 with 5017833 gas
+✨  Done in 125.93s.

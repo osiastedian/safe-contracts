@@ -77,6 +77,20 @@ const userConfig: HardhatUserConfig = {
       blockGasLimit: 100000000,
       gas: 100000000
     },
+    syscoin: {
+      ...sharedNetworkConfig,
+      url: "https://rpc.syscoin.org/",
+    },
+    // Syscoin L1 tesnet
+    tanenbaum: {
+      ...sharedNetworkConfig,
+      url: "https://rpc.tanenbaum.io/",
+    },
+    // ROLLUX testnet (Syscoin L2)
+    rollux_testnet: {
+      ...sharedNetworkConfig,
+      url: "https://rpc-tanenbaum.rollux.com/",
+    },
     mainnet: {
       ...sharedNetworkConfig,
       url: `https://mainnet.infura.io/v3/${INFURA_KEY}`,
