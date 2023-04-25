@@ -81,6 +81,11 @@ const userConfig: HardhatUserConfig = {
       ...sharedNetworkConfig,
       url: "https://rpc.syscoin.org/",
     },
+    // ROLLUX Mainnet (Syscoin L2)
+    rollux_mainnet: {
+      ...sharedNetworkConfig,
+      url: "UNDISCLOSED",
+    },
     // Syscoin L1 tesnet
     tanenbaum: {
       ...sharedNetworkConfig,

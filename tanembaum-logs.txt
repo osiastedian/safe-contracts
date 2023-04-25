@@ -1,0 +1,15 @@
+➜  safe-contracts git:(syscoin-deployment) ✗ yarn hardhat --network tanenbaum deploy
+yarn run v1.22.19
+$ /Users/tedianosias/syscoin/gnosis/safe/safe-contracts/node_modules/.bin/hardhat --network tanenbaum deploy
+Nothing to compile
+deploying "SimulateTxAccessor" (tx: 0xc53533a121183e6836ba1b73614356b988bd6c892c42f08fdaf89a8d6f862136)...: deployed at 0x727a77a074D1E6c4530e814F89E618a3298FC044 with 237931 gas
+deploying "GnosisSafeProxyFactory" (tx: 0xa7e444969278f25444fae362a353a98e8dd70fb250229aa1e8b3de71c59cb524)...: deployed at 0xC22834581EbC8527d974F8a1c97E1bEA4EF910BC with 867832 gas
+deploying "DefaultCallbackHandler" (tx: 0x753f842164b04efda0449b3733e1efd54dd31e0ccab6f51e59e8dfc038989172)...: deployed at 0x3d8E605B02032A941Cfe26897Ca94d77a5BC24b3 with 542617 gas
+deploying "CompatibilityFallbackHandler" (tx: 0xacbdeacb63ead8174dfd0d05a8546b0e6e0022230cfe57e41eadc4b3cf856b15)...: deployed at 0x017062a1dE2FE6b99BE3d9d37841FeD19F573804 with 1238441 gas
+deploying "CreateCall" (tx: 0xac3c590e9366a7a57f5b8d85ddab67542a88c99b1287e6d4566c84f6a1d1423b)...: deployed at 0xB19D6FFc2182150F8Eb585b79D4ABcd7C5640A9d with 294790 gas
+deploying "MultiSend" (tx: 0xc0f709f98bb46ce3b90297019179982bfea6ff46a831926c5d1a70eb251f628e)...: deployed at 0x998739BFdAAdde7C933B942a68053933098f9EDa with 190050 gas
+deploying "MultiSendCallOnly" (tx: 0xae49b03f0d762911039d32ada2a2b08252bf041ab530e61ff92178f40c9c0956)...: deployed at 0xA1dabEF33b3B82c7814B6D82A79e50F4AC44102B with 142150 gas
+deploying "SignMessageLib" (tx: 0x7905052e81470f0e4362f9e9f52b11b803d33cb56e4d2c6898e0ad9573d88ada)...: deployed at 0x98FFBBF51bb33A056B08ddf711f289936AafF717 with 262417 gas
+deploying "GnosisSafeL2" (tx: 0xc56eb7a82d632bed50405778935cf67a32bb5b093428d84727b3d74168c65d4b)...: deployed at 0xfb1bffC9d739B8D520DaF37dF666da4C687191EA with 5201733 gas
+deploying "GnosisSafe" (tx: 0xbee0442bec9ad7b9391cceb76bea3596beeed4f1895e2366195dcc0e59bab717)...: deployed at 0x69f4D1788e39c87893C980c06EdF4b7f686e2938 with 5019271 gas
+✨  Done in 2245.97s.
