@@ -82,7 +82,7 @@ const userConfig: HardhatUserConfig = {
       url: "https://rpc.syscoin.org/",
     },
     // ROLLUX Mainnet (Syscoin L2)
-    rollux_mainnet: {
+    rollux_mainnet_dryrun: {
       ...sharedNetworkConfig,
       url: "https://rpc.rollux.com",
     },
