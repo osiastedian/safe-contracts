@@ -1,0 +1,5 @@
+yarn run v1.22.19
+$ /Users/ted/syscoin/gnosis/safe/safe-contracts/node_modules/.bin/hardhat --network hetzner_rollux_testnet deploy
+Nothing to compile
+{ deployer: '0x55822ACc427341ecfbC740800e7428E8f8E188C0' }
+sending eth to create2 contract deployer address (0x3fab184622dc19b6109349b94811493bf2a45362) (tx: 0x3cf6922fe918fad1b6b2c3d3e37f32a8ac38d5040a10701ace25443df4b4e0f2)...

@@ -101,6 +101,10 @@ const userConfig: HardhatUserConfig = {
       ...sharedNetworkConfig,
       url: "https://rpc-tanenbaum.rollux.com/",
     },
+    hetzner_rollux_testnet: {
+      ...sharedNetworkConfig,
+      url: "https://rpc-testnet.rollux.com/",
+    },
     mainnet: {
       ...sharedNetworkConfig,
       url: `https://mainnet.infura.io/v3/${INFURA_KEY}`,
